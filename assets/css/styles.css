@@ -1,0 +1,57 @@
+.page-wrap {
+  background-color: #ffffff;
+  color: #000000;
+}
+.page-body {
+  padding-top: 14px;
+  width: 60%;
+  margin: 0 auto;
+}
+.login-form {
+  width: 300px;
+}
+.form-item {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.form-left-item {
+  float: left;
+}
+.form-right-item {
+  float: right;
+}
+.chat-page .history {
+  margin: 10px;
+  padding: 16px;
+  height: 80vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.message {
+  padding: 10px;
+  margin: 0 -10px;
+  transition: background-color 2.0s ease;
+}
+.message .from-name {
+  color: #3892db;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.message .text {
+  word-wrap: break-word;
+  line-height: 150%;
+}
+.pull-right {
+  float: right;
+}
+.message-input {
+  width: 100%;
+}
+.message-input input {
+  width: 90%;
+}
+.message-input button {
+  width: 9%;
+}
