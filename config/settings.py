@@ -27,6 +27,9 @@ DJANGO_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
+    'channels',
+    'rest_framework',
+    'rest_framework_swagger',
 ]
 
 LOCAL_APPS = [
@@ -71,6 +74,14 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
+
+ASGI_APPLICATION = 'config.routing.application'
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels.layers.InMemoryChannelLayer"
+     }
+}
 
 
 DATABASES = {
@@ -125,6 +136,26 @@ STATICFILES_FINDERS = [
 
 MEDIA_ROOT = str(ROOT_DIR('media'))
 MEDIA_URL = '/media/'
+
+
+REST_FRAMEWORK = {
+    'UPLOADED_FILES_USE_URL': False,
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+    'DEFAULT_PARSER_CLASSES': [
+        'rest_framework.parsers.JSONParser',
+        'rest_framework.parsers.FormParser',
+        'rest_framework.parsers.MultiPartParser',
+        'rest_framework.parsers.FileUploadParser'
+    ]
+}
 
 
 if not DEBUG:
