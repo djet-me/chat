@@ -35,7 +35,7 @@ Chat app requires Python 3.6+, Node.js 10.0+ (see ```requirements.txt``` and ```
 2. create env
 
     ```bash
-    sudo dnf install python3-virtualenv
+    sudo apt install python3-virtualenv
     virtualenv venv
     source venv/bin/activate
     pip install -r requirements.txt
