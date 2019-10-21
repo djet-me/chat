@@ -1,0 +1,74 @@
+[
+{
+  "model": "chat.message",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "date_created": "2019-10-21T10:31:34.119Z",
+    "text": "Mr. Feynman, this is Mr. So-and-so."
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 2,
+  "fields": {
+    "user": 3,
+    "date_created": "2019-10-21T10:32:34.119Z",
+    "text": "Pleased to meet you, Mr. Feynman."
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "date_created": "2019-10-21T10:33:34.119Z",
+    "text": "And this is Mr. Such-and-such."
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "date_created": "2019-10-21T10:34:34.119Z",
+    "text": "My pleasure, Mr. Feynman."
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 5,
+  "fields": {
+    "user": 2,
+    "date_created": "2019-10-21T10:35:34.119Z",
+    "text": "And this is Mrs. Smith."
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 6,
+  "fields": {
+    "user": 5,
+    "date_created": "2019-10-21T10:36:34.119Z",
+    "text": "Ai, choong, ngong jia!"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 7,
+  "fields": {
+    "user": 1,
+    "date_created": "2019-10-21T10:37:34.119Z",
+    "text": "Ah ching, jong jien!"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 8,
+  "fields": {
+    "user": 5,
+    "date_created": "2019-10-21T10:38:34.119Z",
+    "text": "Oh, my God!\nI knew this would happen\u2014I speak Mandarin and he speaks Cantonese!"
+  }
+}
+]

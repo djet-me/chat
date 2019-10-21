@@ -1,0 +1,57 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$06dIGge1IarR$naMBdiVL5y1d7TSthuNLZhKO7ZeOFcQsRGCuU05MKV4=",
+    "is_superuser": true,
+    "username": "Feynman",
+    "is_staff": true,
+    "is_active": true
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$EZakHovqtJjP$wuhtqBvcCWR2Rn9O/Z+BYm08eIC2RqhOQtOzz7GFzoE=",
+    "is_superuser": true,
+    "username": "Bacher",
+    "is_staff": true,
+    "is_active": true
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$50kGu32XkdRs$k1htF/WPjDEABauexv7/J6J5MQGZUnvoqfXnrr8h+is=",
+    "is_superuser": false,
+    "username": "So-and-so",
+    "is_staff": false,
+    "is_active": true
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$UlypoUDmpxVN$oiViwhgaFV4oIaqVFcPaPBLfyRc0P5eqRoCM5TgqYi8=",
+    "is_superuser": false,
+    "username": "Such-and-such",
+    "is_staff": false,
+    "is_active": true
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$iVuT6uamsk4m$b/iNRaZ2dbQ7/rZkxzIFZFPo+0wjddt8AaXfEsKG9Bk=",
+    "is_superuser": true,
+    "username": "MrsSmith",
+    "is_staff": true,
+    "is_active": true
+  }
+}
+]
