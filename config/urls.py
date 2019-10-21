@@ -15,6 +15,7 @@ schema_view = get_swagger_view(title='CHAT API')
 
 
 urlpatterns = [
+    path('', auth_views.LoginView.as_view(redirect_authenticated_user=True), name='login'),
     path('admin/', admin.site.urls),
     path('chat/', login_required(
             TemplateView.as_view(template_name='index.html'),
